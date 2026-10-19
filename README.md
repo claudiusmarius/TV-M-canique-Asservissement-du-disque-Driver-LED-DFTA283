@@ -22,14 +22,6 @@ L'architecture est répartie sur deux modules principaux conçus sous EasyEDA :
 * **Alimentation Flottante :** Masse logique de l'ATtiny85 surélevée sur un rail **ZERO** à +1,8V via une LED rouge (`D6`) faisant office de *level-shifter* passif. L'alimentation locale 5,1V est stabilisée par une diode Zener (`D7`).
 * **Nœud de Sommation Évolué :** Filtrage de boucle du second ordre basé sur les travaux de **Klaas Robers** et les analyses de **LabGuy**. Le curseur du potentiomètre `RV8` fait office de nœud de sommation mélangeant l'action proportionnelle nerveuse de l'ATtiny85 (côté gauche via `R49`) et la composante continue de régulation de vitesse moyenne issue de la tension de drain du moteur (côté droit via `R50` et la capacité chimique `C2` de 47 µF). Le point central est stabilisé par `C1` (100 nF).
 
-## 📂 Structure du Dépôt
-
-```text
-├── /Code_ATtiny85/       --> Code source C++ de la PLL logicielle (IDE Arduino)
-├── /EasyEDA_Schematics/  --> Schémas de principe et typons des cartes (REV 1.0)
-├── /LTspice_Simulations/ --> Fichiers de simulation des boucles et amplis annexes
-└── README.md             --> Fiche technique du laboratoire (ce fichier)
-```
 
 ## 🚀 Prochaine Étape : DFTA284
 Ce module valide la fin de la conception électronique. Le projet s'oriente désormais vers le design de l'enclosure (base en Sympan de 15 mm, parois de 5 mm et blocs de maintien en POM noir usinés à la CNC 3018) et l'assemblage mécanique final.
