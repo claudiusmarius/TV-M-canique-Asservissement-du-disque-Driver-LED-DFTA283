@@ -24,7 +24,7 @@ L'architecture est répartie sur deux modules principaux conçus sous EasyEDA :
 
 
 ## 🚀 Prochaine Étape : DFTA284
-Ce module valide la fin de la conception électronique. Le projet s'oriente désormais vers le design de l'enclosure (base en Sympan de 15 mm, parois de 5 mm et blocs de maintien en POM noir usinés à la CNC 3018) et l'assemblage mécanique final.
+Ce module valide la fin de la conception électronique. Le projet s'oriente désormais vers le design du coffret (base en Sympan de 15 mm et l'assemblage mécanique final).
 
 ---
 **Conçu par :** claudiusmarius  
